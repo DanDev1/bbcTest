@@ -1,0 +1,446 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "data-validation-(id,-type,-title);scenario-2",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Scenario 2",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am a user",
+            "match": {
+              "location": "file:\\C:\\Users\\Dan\\Downloads\\supertest-cucumber-ts-main\\supertest-cucumber-ts-main\\features\\stepDefs\\steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 341200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I send a GET request to \"/api/RMSTest/ibltest\"",
+            "match": {
+              "location": "file:\\C:\\Users\\Dan\\Downloads\\supertest-cucumber-ts-main\\supertest-cucumber-ts-main\\features\\stepDefs\\steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 575585900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the ID field is never null or empty for all 4 items present in the data array",
+            "match": {
+              "location": "file:\\C:\\Users\\Dan\\Downloads\\supertest-cucumber-ts-main\\supertest-cucumber-ts-main\\features\\stepDefs\\steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4827999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the Type in Episode for every item is always Episode",
+            "match": {
+              "location": "file:\\C:\\Users\\Dan\\Downloads\\supertest-cucumber-ts-main\\supertest-cucumber-ts-main\\features\\stepDefs\\steps.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41546100
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "data-validation-(id,-type,-title);scenario-3",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Scenario 3",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am a user",
+            "match": {
+              "location": "file:\\C:\\Users\\Dan\\Downloads\\supertest-cucumber-ts-main\\supertest-cucumber-ts-main\\features\\stepDefs\\steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I send a GET request to \"/api/RMSTest/ibltest\"",
+            "match": {
+              "location": "file:\\C:\\Users\\Dan\\Downloads\\supertest-cucumber-ts-main\\supertest-cucumber-ts-main\\features\\stepDefs\\steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 491252899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the Title field in Episode is never null or empty for any schedule item",
+            "match": {
+              "location": "file:\\C:\\Users\\Dan\\Downloads\\supertest-cucumber-ts-main\\supertest-cucumber-ts-main\\features\\stepDefs\\steps.js:113"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16341400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "data-validation-(id,-type,-title)",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Data Validation (ID, Type, Title)",
+    "tags": [],
+    "uri": "features\\data-validation.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "date-validation;scenario-5",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Scenario 5",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am a user",
+            "match": {
+              "location": "file:\\C:\\Users\\Dan\\Downloads\\supertest-cucumber-ts-main\\supertest-cucumber-ts-main\\features\\stepDefs\\steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I send a GET request to \"/api/RMSTest/ibltest\"",
+            "match": {
+              "location": "file:\\C:\\Users\\Dan\\Downloads\\supertest-cucumber-ts-main\\supertest-cucumber-ts-main\\features\\stepDefs\\steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 481306700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the Transmission_start date value is before the Transmission_end date",
+            "match": {
+              "location": "file:\\C:\\Users\\Dan\\Downloads\\supertest-cucumber-ts-main\\supertest-cucumber-ts-main\\features\\stepDefs\\steps.js:199"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 120027000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "date-validation",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Date Validation",
+    "tags": [],
+    "uri": "features\\date-validation.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "episode-validation;scenario-4",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Scenario 4",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am a user",
+            "match": {
+              "location": "file:\\C:\\Users\\Dan\\Downloads\\supertest-cucumber-ts-main\\supertest-cucumber-ts-main\\features\\stepDefs\\steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I send a GET request to \"/api/RMSTest/ibltest\"",
+            "match": {
+              "location": "file:\\C:\\Users\\Dan\\Downloads\\supertest-cucumber-ts-main\\supertest-cucumber-ts-main\\features\\stepDefs\\steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 481351700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the only one episode in the list has Live field in Episode as true",
+            "match": {
+              "location": "file:\\C:\\Users\\Dan\\Downloads\\supertest-cucumber-ts-main\\supertest-cucumber-ts-main\\features\\stepDefs\\steps.js:157"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 646600
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "episode-validation",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Episode Validation",
+    "tags": [],
+    "uri": "features\\episode-validation.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "response-headers-and-error-handling;scenario-6",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Scenario 6",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am a user",
+            "match": {
+              "location": "file:\\C:\\Users\\Dan\\Downloads\\supertest-cucumber-ts-main\\supertest-cucumber-ts-main\\features\\stepDefs\\steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I send a GET request to \"/api/RMSTest/ibltest\"",
+            "match": {
+              "location": "file:\\C:\\Users\\Dan\\Downloads\\supertest-cucumber-ts-main\\supertest-cucumber-ts-main\\features\\stepDefs\\steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 480505699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the response headers verify the Date value",
+            "match": {
+              "location": "file:\\C:\\Users\\Dan\\Downloads\\supertest-cucumber-ts-main\\supertest-cucumber-ts-main\\features\\stepDefs\\steps.js:260"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 876600
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "response-headers-and-error-handling;scenario-7",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Scenario 7",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I am a user",
+            "match": {
+              "location": "file:\\C:\\Users\\Dan\\Downloads\\supertest-cucumber-ts-main\\supertest-cucumber-ts-main\\features\\stepDefs\\steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I make a GET request to \"/api/RMSTest/ibltest/2023-09-11\"",
+            "match": {
+              "location": "file:\\C:\\Users\\Dan\\Downloads\\supertest-cucumber-ts-main\\supertest-cucumber-ts-main\\features\\stepDefs\\steps.js:283"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 376800599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the HTTP status code of the response is \"404\"",
+            "match": {
+              "location": "file:\\C:\\Users\\Dan\\Downloads\\supertest-cucumber-ts-main\\supertest-cucumber-ts-main\\features\\stepDefs\\steps.js:306"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 177199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the error object had the properties \"details\" and \"http_response_code\"",
+            "match": {
+              "location": "file:\\C:\\Users\\Dan\\Downloads\\supertest-cucumber-ts-main\\supertest-cucumber-ts-main\\features\\stepDefs\\steps.js:311"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2418900
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "response-headers-and-error-handling",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Response Headers and Error Handling",
+    "tags": [],
+    "uri": "features\\headers-error-handling.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "http-response-and-performance-tests;scenario-1",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Scenario 1",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am a user",
+            "match": {
+              "location": "file:\\C:\\Users\\Dan\\Downloads\\supertest-cucumber-ts-main\\supertest-cucumber-ts-main\\features\\stepDefs\\steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I send a GET request to \"/api/RMSTest/ibltest\"",
+            "match": {
+              "location": "file:\\C:\\Users\\Dan\\Downloads\\supertest-cucumber-ts-main\\supertest-cucumber-ts-main\\features\\stepDefs\\steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 484034099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the HTTP status code of the response is \"200\"",
+            "match": {
+              "location": "file:\\C:\\Users\\Dan\\Downloads\\supertest-cucumber-ts-main\\supertest-cucumber-ts-main\\features\\stepDefs\\steps.js:306"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 82800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the response time of the request is below \"1000\" milliseconds",
+            "match": {
+              "location": "file:\\C:\\Users\\Dan\\Downloads\\supertest-cucumber-ts-main\\supertest-cucumber-ts-main\\features\\stepDefs\\steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 745399
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "http-response-and-performance-tests",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "HTTP Response and Performance Tests",
+    "tags": [],
+    "uri": "features\\http-performance.feature"
+  }
+]
